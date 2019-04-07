@@ -104,6 +104,7 @@ class VideoDownloader {
      * a result.
      * 
      * @param videoLink The video link that a Instagram user can retrieve without visiting the page's source
+     *
      * @return String - The video source link, which cannot be visited directly by an Instagram user
      */
     private String getSourceURL( String videoLink ) {
@@ -191,6 +192,7 @@ class VideoDownloader {
      * 
      * @param attribute The attribute name
      * @param value The attribute's value
+     *
      * @return String - The full HTML attribute
      */
     private String getFullAttribute( String attribute, String value ) {
@@ -203,6 +205,7 @@ class VideoDownloader {
      * @param occurrence The occurrence number of the substring
      * @param substring The substring within the string
      * @param string The string that contains the substrings
+     *
      * @return int - The index of the occurence-th substring within the string
      */
     private int getSubstringIndex( int occurrence, String substring, String string ) {
