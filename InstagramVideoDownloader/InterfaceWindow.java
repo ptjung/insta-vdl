@@ -21,7 +21,7 @@ import java.awt.event.ActionEvent;
 class InterfaceWindow extends JFrame {
     
     // Instance constants and variables
-    private final String[] ENCODE_FORMATS = { "mp4", "ogg", "wmv", "webm", "flv", "avi" };
+    private final String[] ENCODE_FORMATS = { "*.mp4", "*.ogg", "*.wmv", "*.webm", "*.flv", "*.avi" };
     private final String USER_MESSAGE_SUCCESS = "Video has been saved to directory.";
     private final String USER_MESSAGE_FAILURE = "Unable to save video to directory.";
     private final int COLUMN_COUNT = 12;
@@ -89,7 +89,7 @@ class InterfaceWindow extends JFrame {
             
             // Upon "Download" button press: download video and display download success
             if ( event.getSource() == downloadButton ) {
-                videoDownloader.formalDownload( getLinkField.getText(), ENCODE_FORMATS[ formatBox.getSelectedIndex() ] );
+                videoDownloader.formalDownload( getLinkField.getText(), ENCODE_FORMATS[ formatBox.getSelectedIndex() ].substring( 2 ) );
                 notification.setText( videoDownloader.getDownloadSuccess() ? USER_MESSAGE_SUCCESS : USER_MESSAGE_FAILURE );
             }
         }
