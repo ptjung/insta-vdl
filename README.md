@@ -19,5 +19,10 @@ An Instagram public video downloader made in Java. It features a Swing interface
 
 ## Changelog
 
+(April 10, 2019)
+- Released InstagramVideoDownloader version 1.1.
+  - Fixed a small interface shift when downloading.
+  - Cleaned up code.
+
 (April 7, 2019)
 - Released InstagramVideoDownloader version 1.0.
