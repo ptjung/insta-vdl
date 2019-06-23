@@ -1,4 +1,4 @@
-# InstagramVideoDownloader
+# Instagram Video Downloader
 <p align="center">
   <img width="550" height="117" src="https://i.imgur.com/N4zKWXL.jpg">
 </p>
