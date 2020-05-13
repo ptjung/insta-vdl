@@ -1,4 +1,4 @@
-# Instagram Video Downloader
+# InstaVDL
 <p align="center">
   <img width="550" height="117" src="https://i.imgur.com/N4zKWXL.jpg">
 </p>
@@ -7,7 +7,7 @@
 
 ## Program Description
 
-An Instagram public video downloader made in Java. It features a Swing interface and is fully built using Java's standard library.
+An Instagram (public) video downloader made in Java. It features a Swing interface and is fully built using Java's standard library.
 
 ## Features
 
